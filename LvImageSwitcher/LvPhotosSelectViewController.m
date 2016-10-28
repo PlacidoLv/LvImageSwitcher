@@ -19,7 +19,7 @@
 
 static NSString *itemID=@"selectPhotos";
 
-@interface LvPhotosSelectViewController ()<UICollectionViewDataSource,UICollectionViewDelegate,ViewEditFinishDelegate,UITableViewDelegate,UITableViewDataSource>
+@interface LvPhotosSelectViewController ()<UICollectionViewDataSource,UICollectionViewDelegate,ViewEditFinishDelegate,UITableViewDelegate,UITableViewDataSource,LvPhotosSelectViewControllerDelegate>
 {
     NSMutableArray *_arrPhotos;
     ALAssetsLibrary *assetsLibrary;
@@ -109,7 +109,26 @@ static NSString *itemID=@"selectPhotos";
         [self.delegate selectFinish:arrSelect];
     }
     
-    [self.navigationController popViewControllerAnimated:YES];
+    if (self.selectFatherType==SelectTypeGroup)
+    {
+        if (self.backVC==nil)
+        {
+            [self.navigationController popViewControllerAnimated:YES];
+        }
+        else
+        {
+            [self.navigationController.viewControllers enumerateObjectsUsingBlock:^(__kindof UIViewController * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+                
+                if ([obj isKindOfClass:[self.backVC class]]) {
+                    [self.navigationController popToViewController:self.backVC animated:YES];
+                }
+            }];
+        }
+    }
+    else
+    {
+        [self.navigationController popViewControllerAnimated:YES];
+    }
 }
 
 -(void)viewWillAppear:(BOOL)animated
@@ -230,6 +249,9 @@ static NSString *itemID=@"selectPhotos";
             NSString *appName = [mainInfoDictionary objectForKey:@"CFBundleDisplayName"];
             NSString *strAlert = [NSString stringWithFormat:@"请在设备的\"设置-隐私-照片\"选项中，允许%@访问你的手机相册", appName];
             
+            UIAlertView *alert=[[UIAlertView alloc]initWithTitle:@"" message:strAlert delegate:nil cancelButtonTitle:@"确定" otherButtonTitles: nil];
+            [alert show];
+            
             [MBProgressHUD hideHUDForView:self.view animated:YES];
         }];
 
@@ -297,9 +319,12 @@ static NSString *itemID=@"selectPhotos";
     }
     self.navigationItem.title=@"返回";
     LvPhotosSelectViewController *photo=[LvPhotosSelectViewController new];
+    photo.delegate=self;
     photo.intMaxCount=self.intMaxCount;
     photo.assetsGroup=group;
+    photo.backVC=self.backVC;
     photo.title=strGroupName;
+    photo.selectFatherType=self.selectType;
     photo.arrSelectPhotos=self.arrSelectPhotos;
     [self.navigationController pushViewController:photo animated:YES];
 }
@@ -307,6 +332,14 @@ static NSString *itemID=@"selectPhotos";
 -(CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
 {
     return self.floatSectionHeight;
+}
+
+-(void)selectFinish:(NSMutableArray *)arrSelect
+{
+    if ([self.delegate respondsToSelector:@selector(selectFinish:)])
+    {
+        [self.delegate selectFinish:arrSelect];
+    }
 }
 - (void)loadCollectionView
 {
@@ -385,29 +418,29 @@ static NSString *itemID=@"selectPhotos";
             
             return;
             
-            NSMutableArray *arrSelect=[NSMutableArray arrayWithCapacity:0];
-            [MBProgressHUD showHUDAddedTo:self.view animated:YES];
-            [_arrSelectPhotos enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
-                LvALAsset *model=obj;
-                
-                LvPhotoModel *modelP=[[LvPhotoModel alloc]init];
-                NSDate *date = [model.asset valueForProperty:ALAssetPropertyDate];
-                modelP.intTimeTemp = (NSInteger)[date timeIntervalSince1970];
-                modelP.imageURL = model.asset.defaultRepresentation.url;
-                modelP.imageThumbnail=[UIImage imageWithCGImage:model.asset.thumbnail];
-                modelP.imageFull=[UIImage imageWithCGImage:[[model.asset defaultRepresentation] fullScreenImage]];
-                
-                
-                [arrSelect addObject:modelP];
-                
-            }];
-            
-            [MBProgressHUD hideHUDForView:self.view animated:YES];
-            if ([self.delegate respondsToSelector:@selector(selectFinish:)])
-            {
-                [self.delegate selectFinish:arrSelect];
-            }
-            [self.navigationController popViewControllerAnimated:YES];
+//            NSMutableArray *arrSelect=[NSMutableArray arrayWithCapacity:0];
+//            [MBProgressHUD showHUDAddedTo:self.view animated:YES];
+//            [_arrSelectPhotos enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+//                LvALAsset *model=obj;
+//                
+//                LvPhotoModel *modelP=[[LvPhotoModel alloc]init];
+//                NSDate *date = [model.asset valueForProperty:ALAssetPropertyDate];
+//                modelP.intTimeTemp = (NSInteger)[date timeIntervalSince1970];
+//                modelP.imageURL = model.asset.defaultRepresentation.url;
+//                modelP.imageThumbnail=[UIImage imageWithCGImage:model.asset.thumbnail];
+//                modelP.imageFull=[UIImage imageWithCGImage:[[model.asset defaultRepresentation] fullScreenImage]];
+//                
+//                
+//                [arrSelect addObject:modelP];
+//                
+//            }];
+//            
+//            [MBProgressHUD hideHUDForView:self.view animated:YES];
+//            if ([self.delegate respondsToSelector:@selector(selectFinish:)])
+//            {
+//                [self.delegate selectFinish:arrSelect];
+//            }
+//            [self.navigationController popViewControllerAnimated:YES];
             
             
         }
@@ -447,7 +480,27 @@ static NSString *itemID=@"selectPhotos";
     {
         [self.delegate selectFinish:arrSelect];
     }
-    [self.navigationController popViewControllerAnimated:YES];
+    
+    if (self.selectFatherType==SelectTypeGroup)
+    {
+        if (self.backVC==nil)
+        {
+             [self.navigationController popViewControllerAnimated:YES];
+        }
+        else
+        {
+            [self.navigationController.viewControllers enumerateObjectsUsingBlock:^(__kindof UIViewController * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+                
+                if ([obj isKindOfClass:[self.backVC class]]) {
+                    [self.navigationController popToViewController:self.backVC animated:YES];
+                }
+            }];
+        }
+    }
+    else
+    {
+        [self.navigationController popViewControllerAnimated:YES];
+    }
 }
 
 -(void)addModel:(LvALAsset *)model
