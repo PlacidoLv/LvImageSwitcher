@@ -61,6 +61,7 @@
     select.intMaxCount=3;
     select.selectType=SelectTypeGroup;
     select.floatSectionHeight=15;
+    select.backVC=self;
     [self.navigationController pushViewController:select animated:YES];
 }
 

@@ -28,8 +28,10 @@ typedef enum : NSUInteger {
 @property(nonatomic,assign)NSInteger intMaxCount;//图片最大选择数量
 @property(nonatomic,assign)CGFloat floatSectionHeight;//图片最大选择数量
 @property(nonatomic,assign)SelectType selectType;//图片排序方式
+@property(nonatomic,assign)SelectType selectFatherType;
 @property(nonatomic,retain)ALAssetsGroup *assetsGroup;//子group
 @property(nonatomic,retain) NSMutableArray *arrSelectPhotos;
+@property(nonatomic,retain) UIViewController *backVC;
 @property(nonatomic,assign)id<LvPhotosSelectViewControllerDelegate>delegate;
 @end
 
