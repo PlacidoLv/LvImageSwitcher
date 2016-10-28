@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9C35C7B1DC300670048AD19 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C35C7A1DC300670048AD19 /* main.m */; };
+		A9C35C7E1DC300670048AD19 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C35C7D1DC300670048AD19 /* AppDelegate.m */; };
+		A9C35C811DC300670048AD19 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C35C801DC300670048AD19 /* ViewController.m */; };
+		A9C35C841DC300670048AD19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9C35C821DC300670048AD19 /* Main.storyboard */; };
+		A9C35C861DC300670048AD19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9C35C851DC300670048AD19 /* Assets.xcassets */; };
+		A9C35C891DC300670048AD19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9C35C871DC300670048AD19 /* LaunchScreen.storyboard */; };
+		A9C35CA21DC3017B0048AD19 /* LvALAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C35C921DC3017B0048AD19 /* LvALAsset.m */; };
+		A9C35CA31DC3017B0048AD19 /* LvEditImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C35C941DC3017B0048AD19 /* LvEditImageView.m */; };
+		A9C35CA41DC3017B0048AD19 /* LvGroupTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C35C961DC3017B0048AD19 /* LvGroupTableViewCell.m */; };
+		A9C35CA51DC3017B0048AD19 /* LvPhotoCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C35C991DC3017B0048AD19 /* LvPhotoCollectionCell.m */; };
+		A9C35CA61DC3017B0048AD19 /* LvPhotoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C35C9B1DC3017B0048AD19 /* LvPhotoModel.m */; };
+		A9C35CA71DC3017B0048AD19 /* LvPhotosSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C35C9D1DC3017B0048AD19 /* LvPhotosSelectViewController.m */; };
+		A9C35CA81DC3017B0048AD19 /* LvScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C35C9F1DC3017B0048AD19 /* LvScrollView.m */; };
+		A9C35CA91DC3017B0048AD19 /* 勾-选中@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9C35CA01DC3017B0048AD19 /* 勾-选中@2x.png */; };
+		A9C35CAA1DC3017B0048AD19 /* 勾-选中@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9C35CA11DC3017B0048AD19 /* 勾-选中@3x.png */; };
+		F1270C6180879EF053DA1234 /* libPods-LvImageSwitcherTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 548E31203371CEACDB9903A5 /* libPods-LvImageSwitcherTest.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		077F997EF06F7506E89A9A1F /* Pods-LvImageSwitcherTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LvImageSwitcherTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-LvImageSwitcherTest/Pods-LvImageSwitcherTest.release.xcconfig"; sourceTree = "<group>"; };
+		3D145D122A9DBD62B1D2222D /* Pods-LvImageSwitcherTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LvImageSwitcherTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LvImageSwitcherTest/Pods-LvImageSwitcherTest.debug.xcconfig"; sourceTree = "<group>"; };
+		548E31203371CEACDB9903A5 /* libPods-LvImageSwitcherTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LvImageSwitcherTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9C35C761DC300670048AD19 /* LvImageSwitcherTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LvImageSwitcherTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9C35C7A1DC300670048AD19 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A9C35C7C1DC300670048AD19 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A9C35C7D1DC300670048AD19 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A9C35C7F1DC300670048AD19 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A9C35C801DC300670048AD19 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A9C35C831DC300670048AD19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9C35C851DC300670048AD19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9C35C881DC300670048AD19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A9C35C8A1DC300670048AD19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9C35C911DC3017B0048AD19 /* LvALAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LvALAsset.h; sourceTree = "<group>"; };
+		A9C35C921DC3017B0048AD19 /* LvALAsset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LvALAsset.m; sourceTree = "<group>"; };
+		A9C35C931DC3017B0048AD19 /* LvEditImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LvEditImageView.h; sourceTree = "<group>"; };
+		A9C35C941DC3017B0048AD19 /* LvEditImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LvEditImageView.m; sourceTree = "<group>"; };
+		A9C35C951DC3017B0048AD19 /* LvGroupTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LvGroupTableViewCell.h; sourceTree = "<group>"; };
+		A9C35C961DC3017B0048AD19 /* LvGroupTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LvGroupTableViewCell.m; sourceTree = "<group>"; };
+		A9C35C971DC3017B0048AD19 /* LvImageSwitcherHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LvImageSwitcherHeader.h; sourceTree = "<group>"; };
+		A9C35C981DC3017B0048AD19 /* LvPhotoCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LvPhotoCollectionCell.h; sourceTree = "<group>"; };
+		A9C35C991DC3017B0048AD19 /* LvPhotoCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LvPhotoCollectionCell.m; sourceTree = "<group>"; };
+		A9C35C9A1DC3017B0048AD19 /* LvPhotoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LvPhotoModel.h; sourceTree = "<group>"; };
+		A9C35C9B1DC3017B0048AD19 /* LvPhotoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LvPhotoModel.m; sourceTree = "<group>"; };
+		A9C35C9C1DC3017B0048AD19 /* LvPhotosSelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LvPhotosSelectViewController.h; sourceTree = "<group>"; };
+		A9C35C9D1DC3017B0048AD19 /* LvPhotosSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LvPhotosSelectViewController.m; sourceTree = "<group>"; };
+		A9C35C9E1DC3017B0048AD19 /* LvScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LvScrollView.h; sourceTree = "<group>"; };
+		A9C35C9F1DC3017B0048AD19 /* LvScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LvScrollView.m; sourceTree = "<group>"; };
+		A9C35CA01DC3017B0048AD19 /* 勾-选中@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "勾-选中@2x.png"; sourceTree = "<group>"; };
+		A9C35CA11DC3017B0048AD19 /* 勾-选中@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "勾-选中@3x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9C35C731DC300670048AD19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1270C6180879EF053DA1234 /* libPods-LvImageSwitcherTest.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A8A1B9B0E4FD34CFA58E2F3E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				548E31203371CEACDB9903A5 /* libPods-LvImageSwitcherTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A9C35C6D1DC300670048AD19 = {
+			isa = PBXGroup;
+			children = (
+				A9C35C781DC300670048AD19 /* LvImageSwitcherTest */,
+				A9C35C771DC300670048AD19 /* Products */,
+				C87CC4C743D56A1BF9557E81 /* Pods */,
+				A8A1B9B0E4FD34CFA58E2F3E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A9C35C771DC300670048AD19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9C35C761DC300670048AD19 /* LvImageSwitcherTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9C35C781DC300670048AD19 /* LvImageSwitcherTest */ = {
+			isa = PBXGroup;
+			children = (
+				A9C35C901DC3017B0048AD19 /* LvImageSwitcher */,
+				A9C35C7C1DC300670048AD19 /* AppDelegate.h */,
+				A9C35C7D1DC300670048AD19 /* AppDelegate.m */,
+				A9C35C7F1DC300670048AD19 /* ViewController.h */,
+				A9C35C801DC300670048AD19 /* ViewController.m */,
+				A9C35C821DC300670048AD19 /* Main.storyboard */,
+				A9C35C851DC300670048AD19 /* Assets.xcassets */,
+				A9C35C871DC300670048AD19 /* LaunchScreen.storyboard */,
+				A9C35C8A1DC300670048AD19 /* Info.plist */,
+				A9C35C791DC300670048AD19 /* Supporting Files */,
+			);
+			path = LvImageSwitcherTest;
+			sourceTree = "<group>";
+		};
+		A9C35C791DC300670048AD19 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9C35C7A1DC300670048AD19 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A9C35C901DC3017B0048AD19 /* LvImageSwitcher */ = {
+			isa = PBXGroup;
+			children = (
+				A9C35C911DC3017B0048AD19 /* LvALAsset.h */,
+				A9C35C921DC3017B0048AD19 /* LvALAsset.m */,
+				A9C35C931DC3017B0048AD19 /* LvEditImageView.h */,
+				A9C35C941DC3017B0048AD19 /* LvEditImageView.m */,
+				A9C35C951DC3017B0048AD19 /* LvGroupTableViewCell.h */,
+				A9C35C961DC3017B0048AD19 /* LvGroupTableViewCell.m */,
+				A9C35C971DC3017B0048AD19 /* LvImageSwitcherHeader.h */,
+				A9C35C981DC3017B0048AD19 /* LvPhotoCollectionCell.h */,
+				A9C35C991DC3017B0048AD19 /* LvPhotoCollectionCell.m */,
+				A9C35C9A1DC3017B0048AD19 /* LvPhotoModel.h */,
+				A9C35C9B1DC3017B0048AD19 /* LvPhotoModel.m */,
+				A9C35C9C1DC3017B0048AD19 /* LvPhotosSelectViewController.h */,
+				A9C35C9D1DC3017B0048AD19 /* LvPhotosSelectViewController.m */,
+				A9C35C9E1DC3017B0048AD19 /* LvScrollView.h */,
+				A9C35C9F1DC3017B0048AD19 /* LvScrollView.m */,
+				A9C35CA01DC3017B0048AD19 /* 勾-选中@2x.png */,
+				A9C35CA11DC3017B0048AD19 /* 勾-选中@3x.png */,
+			);
+			path = LvImageSwitcher;
+			sourceTree = "<group>";
+		};
+		C87CC4C743D56A1BF9557E81 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3D145D122A9DBD62B1D2222D /* Pods-LvImageSwitcherTest.debug.xcconfig */,
+				077F997EF06F7506E89A9A1F /* Pods-LvImageSwitcherTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9C35C751DC300670048AD19 /* LvImageSwitcherTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9C35C8D1DC300670048AD19 /* Build configuration list for PBXNativeTarget "LvImageSwitcherTest" */;
+			buildPhases = (
+				BA5EE2540C28F9AA303FB4DB /* [CP] Check Pods Manifest.lock */,
+				A9C35C721DC300670048AD19 /* Sources */,
+				A9C35C731DC300670048AD19 /* Frameworks */,
+				A9C35C741DC300670048AD19 /* Resources */,
+				61D954CF88D2E399993BE596 /* [CP] Embed Pods Frameworks */,
+				5D932CE6E15103FFBBF16F42 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LvImageSwitcherTest;
+			productName = LvImageSwitcherTest;
+			productReference = A9C35C761DC300670048AD19 /* LvImageSwitcherTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9C35C6E1DC300670048AD19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = lv;
+				TargetAttributes = {
+					A9C35C751DC300670048AD19 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = C94G9VC8SF;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A9C35C711DC300670048AD19 /* Build configuration list for PBXProject "LvImageSwitcherTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9C35C6D1DC300670048AD19;
+			productRefGroup = A9C35C771DC300670048AD19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9C35C751DC300670048AD19 /* LvImageSwitcherTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9C35C741DC300670048AD19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9C35C891DC300670048AD19 /* LaunchScreen.storyboard in Resources */,
+				A9C35CA91DC3017B0048AD19 /* 勾-选中@2x.png in Resources */,
+				A9C35CAA1DC3017B0048AD19 /* 勾-选中@3x.png in Resources */,
+				A9C35C861DC300670048AD19 /* Assets.xcassets in Resources */,
+				A9C35C841DC300670048AD19 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5D932CE6E15103FFBBF16F42 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LvImageSwitcherTest/Pods-LvImageSwitcherTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61D954CF88D2E399993BE596 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LvImageSwitcherTest/Pods-LvImageSwitcherTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA5EE2540C28F9AA303FB4DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9C35C721DC300670048AD19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9C35C811DC300670048AD19 /* ViewController.m in Sources */,
+				A9C35CA51DC3017B0048AD19 /* LvPhotoCollectionCell.m in Sources */,
+				A9C35CA41DC3017B0048AD19 /* LvGroupTableViewCell.m in Sources */,
+				A9C35CA71DC3017B0048AD19 /* LvPhotosSelectViewController.m in Sources */,
+				A9C35CA21DC3017B0048AD19 /* LvALAsset.m in Sources */,
+				A9C35CA81DC3017B0048AD19 /* LvScrollView.m in Sources */,
+				A9C35C7E1DC300670048AD19 /* AppDelegate.m in Sources */,
+				A9C35CA31DC3017B0048AD19 /* LvEditImageView.m in Sources */,
+				A9C35CA61DC3017B0048AD19 /* LvPhotoModel.m in Sources */,
+				A9C35C7B1DC300670048AD19 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A9C35C821DC300670048AD19 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9C35C831DC300670048AD19 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A9C35C871DC300670048AD19 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9C35C881DC300670048AD19 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9C35C8B1DC300670048AD19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A9C35C8C1DC300670048AD19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9C35C8E1DC300670048AD19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D145D122A9DBD62B1D2222D /* Pods-LvImageSwitcherTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C94G9VC8SF;
+				INFOPLIST_FILE = LvImageSwitcherTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lv.LvImageSwitcherTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A9C35C8F1DC300670048AD19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 077F997EF06F7506E89A9A1F /* Pods-LvImageSwitcherTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C94G9VC8SF;
+				INFOPLIST_FILE = LvImageSwitcherTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lv.LvImageSwitcherTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9C35C711DC300670048AD19 /* Build configuration list for PBXProject "LvImageSwitcherTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9C35C8B1DC300670048AD19 /* Debug */,
+				A9C35C8C1DC300670048AD19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9C35C8D1DC300670048AD19 /* Build configuration list for PBXNativeTarget "LvImageSwitcherTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9C35C8E1DC300670048AD19 /* Debug */,
+				A9C35C8F1DC300670048AD19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9C35C6E1DC300670048AD19 /* Project object */;
+}

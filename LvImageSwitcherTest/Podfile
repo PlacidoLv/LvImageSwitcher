@@ -1,0 +1,8 @@
+platform :ios, ‘8.1’
+
+target 'LvImageSwitcherTest’ do
+
+pod 'MBProgressHUD'
+pod 'Masonry'
+
+end
