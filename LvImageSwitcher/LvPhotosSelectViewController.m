@@ -14,8 +14,8 @@
 #import "LvGroupTableViewCell.h"
 #import "LvEditImageView.h"
 #import "MBProgressHUD.h"
-#import "LvImageSwitcherHeader.h"
 
+#define SIZE [UIApplication sharedApplication].keyWindow.rootViewController.view.bounds.size
 
 static NSString *itemID=@"selectPhotos";
 

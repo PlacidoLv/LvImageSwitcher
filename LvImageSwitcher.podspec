@@ -15,9 +15,8 @@ s.homepage     = "https://github.com/PlacidoLv/LvImageSwitcher"
 s.license      = "MIT"
 s.author       = { "PlacidoLv" => "327853338@qq.com" }
 s.platform     = :ios
-s.source       = { :git => "https://github.com/PlacidoLv/LvImageSwitcher.git", :tag => "0.0.1",:commit => "1aa0af76dbf3eef58c8d8f1fb1dc9fb486b3ccef" }
+s.source       = { :git => "https://github.com/PlacidoLv/LvImageSwitcher.git", :tag => "0.0.1",:commit => "c06633138a96fa6aa20063ba48ba6cbe8c611b57" }
 s.source_files  = "LvImageSwitcher/{*.h,*.m}"
 s.requires_arc = true
 s.dependency  'MBProgressHUD'
-s.dependency  'Masonry'
 end

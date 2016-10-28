@@ -7,7 +7,6 @@
 //
 
 #import "LvPhotoCollectionCell.h"
-#import "LvImageSwitcherHeader.h"
 
 
 @interface LvPhotoCollectionCell()
