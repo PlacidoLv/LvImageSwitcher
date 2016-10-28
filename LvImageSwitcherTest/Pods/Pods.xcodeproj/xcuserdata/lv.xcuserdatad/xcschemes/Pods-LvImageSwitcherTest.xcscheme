@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'A09E348A923F8B5A15F83461B6D65B1C'
+               BlueprintIdentifier = 'AC019A443868A62A73C3D0A6C81EB9A1'
                BlueprintName = 'Pods-LvImageSwitcherTest'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libPods-LvImageSwitcherTest.a'>

@@ -45,7 +45,6 @@
 		A9C35C941DC3017B0048AD19 /* LvEditImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LvEditImageView.m; sourceTree = "<group>"; };
 		A9C35C951DC3017B0048AD19 /* LvGroupTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LvGroupTableViewCell.h; sourceTree = "<group>"; };
 		A9C35C961DC3017B0048AD19 /* LvGroupTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LvGroupTableViewCell.m; sourceTree = "<group>"; };
-		A9C35C971DC3017B0048AD19 /* LvImageSwitcherHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LvImageSwitcherHeader.h; sourceTree = "<group>"; };
 		A9C35C981DC3017B0048AD19 /* LvPhotoCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LvPhotoCollectionCell.h; sourceTree = "<group>"; };
 		A9C35C991DC3017B0048AD19 /* LvPhotoCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LvPhotoCollectionCell.m; sourceTree = "<group>"; };
 		A9C35C9A1DC3017B0048AD19 /* LvPhotoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LvPhotoModel.h; sourceTree = "<group>"; };
@@ -130,7 +129,6 @@
 				A9C35C941DC3017B0048AD19 /* LvEditImageView.m */,
 				A9C35C951DC3017B0048AD19 /* LvGroupTableViewCell.h */,
 				A9C35C961DC3017B0048AD19 /* LvGroupTableViewCell.m */,
-				A9C35C971DC3017B0048AD19 /* LvImageSwitcherHeader.h */,
 				A9C35C981DC3017B0048AD19 /* LvPhotoCollectionCell.h */,
 				A9C35C991DC3017B0048AD19 /* LvPhotoCollectionCell.m */,
 				A9C35C9A1DC3017B0048AD19 /* LvPhotoModel.h */,
