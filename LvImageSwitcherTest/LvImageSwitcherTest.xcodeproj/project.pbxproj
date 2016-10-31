@@ -20,8 +20,8 @@
 		A9C35CA61DC3017B0048AD19 /* LvPhotoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C35C9B1DC3017B0048AD19 /* LvPhotoModel.m */; };
 		A9C35CA71DC3017B0048AD19 /* LvPhotosSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C35C9D1DC3017B0048AD19 /* LvPhotosSelectViewController.m */; };
 		A9C35CA81DC3017B0048AD19 /* LvScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C35C9F1DC3017B0048AD19 /* LvScrollView.m */; };
-		A9C35CA91DC3017B0048AD19 /* 勾-选中@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9C35CA01DC3017B0048AD19 /* 勾-选中@2x.png */; };
-		A9C35CAA1DC3017B0048AD19 /* 勾-选中@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9C35CA11DC3017B0048AD19 /* 勾-选中@3x.png */; };
+		A9C35CA91DC3017B0048AD19 /* LvImageSwitcher_Select@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9C35CA01DC3017B0048AD19 /* LvImageSwitcher_Select@2x.png */; };
+		A9C35CAA1DC3017B0048AD19 /* LvImageSwitcher_Select@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9C35CA11DC3017B0048AD19 /* LvImageSwitcher_Select@3x.png */; };
 		F1270C6180879EF053DA1234 /* libPods-LvImageSwitcherTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 548E31203371CEACDB9903A5 /* libPods-LvImageSwitcherTest.a */; };
 /* End PBXBuildFile section */
 
@@ -53,8 +53,8 @@
 		A9C35C9D1DC3017B0048AD19 /* LvPhotosSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LvPhotosSelectViewController.m; sourceTree = "<group>"; };
 		A9C35C9E1DC3017B0048AD19 /* LvScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LvScrollView.h; sourceTree = "<group>"; };
 		A9C35C9F1DC3017B0048AD19 /* LvScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LvScrollView.m; sourceTree = "<group>"; };
-		A9C35CA01DC3017B0048AD19 /* 勾-选中@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "勾-选中@2x.png"; sourceTree = "<group>"; };
-		A9C35CA11DC3017B0048AD19 /* 勾-选中@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "勾-选中@3x.png"; sourceTree = "<group>"; };
+		A9C35CA01DC3017B0048AD19 /* LvImageSwitcher_Select@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LvImageSwitcher_Select@2x.png"; sourceTree = "<group>"; };
+		A9C35CA11DC3017B0048AD19 /* LvImageSwitcher_Select@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LvImageSwitcher_Select@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,8 +137,8 @@
 				A9C35C9D1DC3017B0048AD19 /* LvPhotosSelectViewController.m */,
 				A9C35C9E1DC3017B0048AD19 /* LvScrollView.h */,
 				A9C35C9F1DC3017B0048AD19 /* LvScrollView.m */,
-				A9C35CA01DC3017B0048AD19 /* 勾-选中@2x.png */,
-				A9C35CA11DC3017B0048AD19 /* 勾-选中@3x.png */,
+				A9C35CA01DC3017B0048AD19 /* LvImageSwitcher_Select@2x.png */,
+				A9C35CA11DC3017B0048AD19 /* LvImageSwitcher_Select@3x.png */,
 			);
 			path = LvImageSwitcher;
 			sourceTree = "<group>";
@@ -215,8 +215,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9C35C891DC300670048AD19 /* LaunchScreen.storyboard in Resources */,
-				A9C35CA91DC3017B0048AD19 /* 勾-选中@2x.png in Resources */,
-				A9C35CAA1DC3017B0048AD19 /* 勾-选中@3x.png in Resources */,
+				A9C35CA91DC3017B0048AD19 /* LvImageSwitcher_Select@2x.png in Resources */,
+				A9C35CAA1DC3017B0048AD19 /* LvImageSwitcher_Select@3x.png in Resources */,
 				A9C35C861DC300670048AD19 /* Assets.xcassets in Resources */,
 				A9C35C841DC300670048AD19 /* Main.storyboard in Resources */,
 			);
