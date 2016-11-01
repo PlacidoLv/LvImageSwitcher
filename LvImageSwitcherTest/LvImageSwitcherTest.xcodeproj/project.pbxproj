@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A99B4D2D1DC87192004943B3 /* LvImageSwitcher.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A99B4D2C1DC87192004943B3 /* LvImageSwitcher.bundle */; };
 		A9C35C7B1DC300670048AD19 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C35C7A1DC300670048AD19 /* main.m */; };
 		A9C35C7E1DC300670048AD19 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C35C7D1DC300670048AD19 /* AppDelegate.m */; };
 		A9C35C811DC300670048AD19 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C35C801DC300670048AD19 /* ViewController.m */; };
@@ -20,8 +21,6 @@
 		A9C35CA61DC3017B0048AD19 /* LvPhotoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C35C9B1DC3017B0048AD19 /* LvPhotoModel.m */; };
 		A9C35CA71DC3017B0048AD19 /* LvPhotosSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C35C9D1DC3017B0048AD19 /* LvPhotosSelectViewController.m */; };
 		A9C35CA81DC3017B0048AD19 /* LvScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C35C9F1DC3017B0048AD19 /* LvScrollView.m */; };
-		A9C35CA91DC3017B0048AD19 /* LvImageSwitcher_Select@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9C35CA01DC3017B0048AD19 /* LvImageSwitcher_Select@2x.png */; };
-		A9C35CAA1DC3017B0048AD19 /* LvImageSwitcher_Select@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9C35CA11DC3017B0048AD19 /* LvImageSwitcher_Select@3x.png */; };
 		F1270C6180879EF053DA1234 /* libPods-LvImageSwitcherTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 548E31203371CEACDB9903A5 /* libPods-LvImageSwitcherTest.a */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +28,7 @@
 		077F997EF06F7506E89A9A1F /* Pods-LvImageSwitcherTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LvImageSwitcherTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-LvImageSwitcherTest/Pods-LvImageSwitcherTest.release.xcconfig"; sourceTree = "<group>"; };
 		3D145D122A9DBD62B1D2222D /* Pods-LvImageSwitcherTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LvImageSwitcherTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LvImageSwitcherTest/Pods-LvImageSwitcherTest.debug.xcconfig"; sourceTree = "<group>"; };
 		548E31203371CEACDB9903A5 /* libPods-LvImageSwitcherTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LvImageSwitcherTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A99B4D2C1DC87192004943B3 /* LvImageSwitcher.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LvImageSwitcher.bundle; sourceTree = "<group>"; };
 		A9C35C761DC300670048AD19 /* LvImageSwitcherTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LvImageSwitcherTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9C35C7A1DC300670048AD19 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A9C35C7C1DC300670048AD19 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -53,8 +53,6 @@
 		A9C35C9D1DC3017B0048AD19 /* LvPhotosSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LvPhotosSelectViewController.m; sourceTree = "<group>"; };
 		A9C35C9E1DC3017B0048AD19 /* LvScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LvScrollView.h; sourceTree = "<group>"; };
 		A9C35C9F1DC3017B0048AD19 /* LvScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LvScrollView.m; sourceTree = "<group>"; };
-		A9C35CA01DC3017B0048AD19 /* LvImageSwitcher_Select@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LvImageSwitcher_Select@2x.png"; sourceTree = "<group>"; };
-		A9C35CA11DC3017B0048AD19 /* LvImageSwitcher_Select@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LvImageSwitcher_Select@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,8 +135,7 @@
 				A9C35C9D1DC3017B0048AD19 /* LvPhotosSelectViewController.m */,
 				A9C35C9E1DC3017B0048AD19 /* LvScrollView.h */,
 				A9C35C9F1DC3017B0048AD19 /* LvScrollView.m */,
-				A9C35CA01DC3017B0048AD19 /* LvImageSwitcher_Select@2x.png */,
-				A9C35CA11DC3017B0048AD19 /* LvImageSwitcher_Select@3x.png */,
+				A99B4D2C1DC87192004943B3 /* LvImageSwitcher.bundle */,
 			);
 			path = LvImageSwitcher;
 			sourceTree = "<group>";
@@ -215,9 +212,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9C35C891DC300670048AD19 /* LaunchScreen.storyboard in Resources */,
-				A9C35CA91DC3017B0048AD19 /* LvImageSwitcher_Select@2x.png in Resources */,
-				A9C35CAA1DC3017B0048AD19 /* LvImageSwitcher_Select@3x.png in Resources */,
 				A9C35C861DC300670048AD19 /* Assets.xcassets in Resources */,
+				A99B4D2D1DC87192004943B3 /* LvImageSwitcher.bundle in Resources */,
 				A9C35C841DC300670048AD19 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

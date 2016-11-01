@@ -34,7 +34,7 @@
 -(void)reloadUI:(LvALAsset *)asset
 {
     _imageView.image=[UIImage imageWithCGImage:asset.asset.aspectRatioThumbnail];
-    _imgSelect.image= [UIImage imageNamed:asset.isHaveSelect?@"LvImageSwitcher_Select":@""];
+    _imgSelect.image= [UIImage imageNamed:asset.isHaveSelect?@"LvImageSwitcher.bundle/LvImageSwitcher_Select":@""];
 }
 
 
